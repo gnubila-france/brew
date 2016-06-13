@@ -116,7 +116,7 @@ class Tap
     else
       case "#{user}/#{repo}"
       when "Homebrew/dupes"
-        "https://github.com/Linuxbrew/homebrew-#{repo}"
+        "https://github.com/gnubila-france/homebrew-#{repo}"
       else
         "https://github.com/#{user}/homebrew-#{repo}"
       end
