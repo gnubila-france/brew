@@ -544,7 +544,7 @@ class CoreTap < Tap
     end
   else
     def default_remote
-      "https://github.com/Linuxbrew/homebrew-core"
+      "https://github.com/gnubila-france/homebrew-core"
     end
   end
 
