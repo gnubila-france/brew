@@ -2,7 +2,7 @@ require "requirement"
 
 class XorgRequirement < Requirement
   fatal true
-  default_formula "linuxbrew/xorg/xorg"
+  default_formula "gnubila-france/xorg/xorg"
 
   def initialize(name = "xorg", tags = [])
     @name = name
@@ -13,6 +13,6 @@ class XorgRequirement < Requirement
   end
 
   satisfy :build_env => false do
-    Formula["linuxbrew/xorg/xorg"].installed?
+    Formula["gnubila-france/xorg/xorg"].installed?
   end
 end
